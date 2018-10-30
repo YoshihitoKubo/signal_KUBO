@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+      <meta charset="utf-8">
+      <title>信号機</title>
+      <link rel="stylesheet" href="css/signalstyles.css">
+  </head>
+
+  <body>
+    <p>信号機です</p>
+      <div class="signal">
+        <div class="sigtop"></div>    <!--  信号機の上曲線 -->
+        <div class="sigbottom"></div>  <!--  信号機の下曲線 -->
+
+        <div id="green"></div>      <!--  青 -->
+        <div id="yellow"></div>     <!--  黄 -->
+        <div id="red"></div>        <!--  赤 -->
+      </div>
+
+       <input type="button" class="startbutton" value="START" onclick="colorchange();">
+
+    <script src="js/signalscript.js"></script>
+  </body>
+</html>

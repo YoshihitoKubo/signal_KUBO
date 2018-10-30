@@ -1,0 +1,51 @@
+
+
+.signal{
+  position: relative;
+  width: 80px;
+  height:200px;
+  background-color: #000;    /*  黒 */
+  margin: 50px 10px;
+  padding: 10px;
+}
+
+/* 長方形＋円の重ね合わせで上下の曲線を表現 */
+.sigtop,
+.sigbottom{
+  content: "";
+  width: 80px;
+  height:80px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  margin: 0;
+  padding: 10px;
+}
+ .sigtop{
+  top: -45px;
+  left:0;
+}
+.sigbottom{
+  top: 170px;
+  left:0;
+}
+
+
+#green, #yellow, #red {
+  /*   信号機の丸の共通要素を定義   */
+  position: absolute;
+  width: 45px;
+  height:45px;
+  background-color: #808080;    /*  信号非点灯時はグレー表示 */
+  border-radius: 50%;
+  margin:0px auto;
+  padding: 10px;
+  left:18px;
+}
+#green { top: 0px;   }
+#yellow{ top: 77.5px;}
+#red   { top: 155px; }
+
+.startbutton{
+  margin:20px 0px;
+}
