@@ -1,11 +1,11 @@
-
+p { text-align:center }
 
 .signal{
   position: relative;
   width: 80px;
   height:200px;
   background-color: #000;    /*  黒 */
-  margin: 50px 10px;
+  margin: 70px auto;
   padding: 10px;
 }
 
@@ -42,10 +42,10 @@
   padding: 10px;
   left:18px;
 }
-#green { top: 0px;   }
-#yellow{ top: 77.5px;}
+#green { top: 0px; }
+#yellow{ top: 77.5px; }
 #red   { top: 155px; }
 
-.startbutton{
-  margin:20px 0px;
+.ButtonWrapper{
+  text-align:center;
 }
